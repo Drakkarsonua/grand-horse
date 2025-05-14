@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кінний клуб "Grand Horse"</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="images/logo.png" alt="Логотип" class="logo">
+      <h1>КСК "Grand Horse"</h1>
+    </div>
+    <div class="header-right">
+      <nav>
+        <a href="index.html">Головна</a>
+        <div class="dropdown">
+          <a href="trainers.html" class="dropdown-toggle">Тренери</a>
+          <div class="dropdown-menu">
+            <a href="dressage.html">Виїздка</a>
+            <a href="jumping.html">Конкур</a>
+          </div>
+        </div>
+        <a href="#contact-section">Контакти</a>
+        <a href="signup.html" class="btn-signup">Записатись</a>
+      </nav>
+      
+    </div>
+  </header>
+
+  <section id="slider">
+    <div class="slider-track">
+      <img src="images/club1.jpg" alt="Клуб 1" />
+      <img src="images/club2.jpg" alt="Клуб 2" />
+      <img src="images/club3.jpg" alt="Клуб 3" />
+      <!-- Повтор картинок для плавности -->
+      <img src="images/club1.jpg" alt="Клуб 1" />
+      <img src="images/club2.jpg" alt="Клуб 2" />
+      <img src="images/club3.jpg" alt="Клуб 3" />
+    </div>
+  </section>
+   
+
+  <main>
+    <!-- Новости -->
+    <section>
+      <h2>Последні новини</h2>
+      <div id="news-section"></div>
+    </section>
+
+    <!-- Тренеры -->
+    <section id="trainers-section">
+      <h2>Наші тренери</h2>
+      <div id="trainers-list"></div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact-section">
+      <h2>Контактна інформація</h2>
+      <div class="contact-info">
+        <p><strong>Адреса:</strong> м. Бровари, вул. Онікієнка</p>
+        <p><strong>Телефон:</strong> +380 (99) 123-45-67</p>
+        <p><strong>Email:</strong> grandhorse@gmail.com</p>
+      </div>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps?q=50.522952287505376,30.84826078718676&hl=ru&z=15&output=embed"
+          width="100%"
+          height="300"
+          style="border:0; border-radius: 8px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <h3>Зв'язатися з нами</h3>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Ваше ім'я" required />
+        <input type="email" name="email" placeholder="Ваш email" required />
+        <textarea name="message" placeholder="Ваше повідомлення" required></textarea>
+        <button type="submit">Відправити</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Кінний клуб "Grand Horse"</p>
+  </footer>
+
+  <!-- Соцсети -->
+  <div class="social-floating">
+    <a href="https://t.me/твой_ник" target="_blank" class="social" title="Telegram">
+      <img src="images/telegram.png" alt="Telegram">
+    </a>
+    <a href="viber://chat?number=%2B1234567890" class="social" title="Viber">
+      <img src="images/viber.png" alt="Viber">
+    </a>
+    <a href="https://instagram.com/твой_ник" target="_blank" class="social" title="Instagram">
+      <img src="images/instagram.png" alt="Instagram">
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

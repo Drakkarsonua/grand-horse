@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Дубін Іван",
+    "photo": "images/trainer1.jpg",
+    "bio": "Майстер спорту з виїздки",
+    "type": "dressage"
+  },
+  {
+    "name": "Сергій Лавров",
+    "photo": "images/trainer2.jpg",
+    "bio": "Спеціаліст з конкуру",
+    "type": "jumping"
+  },
+  {
+    "name": "Сергій Лавров",
+    "photo": "images/trainer3.png",
+    "bio": "Спеціаліст з конкуру",
+    "type": "jumping"
+  },
+  {
+    "name": "Свiтлана Шахрай",
+    "photo": "images/trainer4.png",
+    "bio": "Спеціаліст з виїздки",
+    "type": "dressage"
+  }
+]
